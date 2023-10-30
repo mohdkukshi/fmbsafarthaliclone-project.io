@@ -1,0 +1,73 @@
+body {
+    background-color: #f5f1e0;
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.logo {
+    padding: 90px 0 15px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1px;
+}
+
+.row {
+    margin: 0;
+}
+
+.welcome {
+    font-size: 23px;
+}
+
+.below-welcome {
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.login-button {
+    text-align: center;
+}
+
+.login-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a71f1b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.login-button a:hover {
+    background-color: #0056b3;
+}
+
+.below-login-button {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #ababac;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+a {
+    color: #ababac; /* Change to your desired color code */
+    text-decoration: underline; /* Remove underlines, if desired */
+}
+
+h1 {
+    font-size: 28px
+}
